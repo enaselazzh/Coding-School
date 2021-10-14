@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .parent {
+                width: 400px;
+                height: 200px;
+                background-color: green;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .child1 {
+                width: 350px;
+                height:150px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border: 3px solid yellow;
+            }
+            .child2 {
+                width: 300px;
+                height:100px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border: 3px solid yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            position
+            <div class="child1"></div>
+            <div class="child2"></div>
+        </div>
+    </body>
+</html>

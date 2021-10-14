@@ -1,0 +1,34 @@
+
+*{margin: 0;}
+body{
+    background-color: blanchedalmond;
+}
+.clearfixe{
+    clear: both;
+}
+.container{
+width: 70%;
+margin: auto;
+}
+.flex{
+    display:flex;
+    height: 100vh;
+    width: 100%;
+}
+ h2{
+    background-color: tomato;
+    padding: 10px;
+    margin-bottom: 0;
+
+}
+.container .text{
+    background-color: white;
+    padding: 10px;
+    flex:2;
+    
+}
+.container .ul {
+    background-color: rgb(102, 101, 101);
+    margin-top: 0;
+    flex: 1;  
+}

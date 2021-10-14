@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+}
+.parent .box{
+    width: 50%;
+    background-color: rgb(228, 238, 228);
+    height: 50vh;
+
+}
+.parent .box1{
+    position: absolute;
+    left: 300px;
+    outline: yellow  solid 20px;
+    background-color: green;
+    width: 50%;
+    height:470px;
+    margin: 60px ;
+    z-index: 999;
+
+}
+ .parent .box2{
+     position: absolute;
+     left: 40px;
+     outline: yellow  solid 20px;
+     width: 90%;
+     height: 540px;
+     margin: 30px;
+     background-color: green;
+     z-index: 1;
+ }
